@@ -3,9 +3,8 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+En presentation om mig
 ==========================
 
-The source for this page is in `content/index.md`.
-
-This is a sample home page written in markdown with some frontmatter defined.
+Hej! Jag heter Gustaf Sundqvist och läser webbprogrammering på BTH.
+Jag kommer från en förort norr om Stockholm men är nu mera bosatt i Karlskrona i en gemensam student 3:a. Mina intressen är att programmera, meka med retro hårdvaror, kolla på film och TV-serier men även icke-tekniskt som matlagning.
