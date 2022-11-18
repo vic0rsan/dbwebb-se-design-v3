@@ -1,8 +1,17 @@
 ---
 Logo: image/logo-small.png
 Tagline: My portfolio.
+
 Social:
-    - title: Link till sidans github repo.
+    - title: Länk till sidans github repo.
       url: https://github.com/dbwebb-se/design-v3
-      icon: github
+      icon: fab fa-github
+
+    - title: Länk till dbwebbs Discord-server.
+      url: https://discord.gg/HARGpaW
+      icon: fab fa-discord
+
+    - title: Länk till dbwebbs YouTube-kanal.
+      url: https://www.youtube.com/@DbwebbSe
+      icon: fab fa-youtube
 ---
