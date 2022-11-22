@@ -10,6 +10,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'blockquotes';
 @import 'code';
 @import 'mobile-menu';
+@import 'technologies';
+@import 'technology';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
@@ -45,7 +47,7 @@ body {
 .header,
 .main {
     background-color: $background-color;
-    padding: 0 1em;
+    padding: 0 6em;
 }
 
 .main {
@@ -133,6 +135,7 @@ dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    font-size: 20px;
 }
 
 h1,
