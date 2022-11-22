@@ -1,7 +1,7 @@
 .technology {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 0em 2em;
+    gap: 0 2em;
 }
 
 .technology-sidebar {
@@ -25,6 +25,7 @@
     .technology-sidebar {
         display: none;
     }
+
     .technology-content {
         grid-column: 1 / 2;
     }
