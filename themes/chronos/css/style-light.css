@@ -6570,7 +6570,7 @@ pre code {
 .technology {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 0em 2em;
+  gap: 0 2em;
 }
 
 .technology-sidebar {
@@ -6771,4 +6771,8 @@ a {
 
 img {
   max-width: 100%;
+}
+
+.main {
+  background-color: yellow;
 }

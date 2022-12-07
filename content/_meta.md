@@ -14,4 +14,12 @@ Social:
     - title: Länk till dbwebbs YouTube-kanal.
       url: https://www.youtube.com/@DbwebbSe
       icon: fab fa-youtube
+
+    - title: Light Mode
+      url: ?action=theme
+      icon: fas fa-sun
+
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

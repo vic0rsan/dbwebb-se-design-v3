@@ -8,8 +8,12 @@
   },
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass dark_sass/scss/style.scss dark_sass/css/style.css --no-source-map",
-    "style-min": "sass dark_sass/scss/style.scss dark_sass/css/style.min.css --no-source-map --style compressed"
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass chronos/scss/style.scss chronos/css/style.css --no-source-map",
+    "style-dark-min": "sass chronos/scss/style.scss chronos/css/style.min.css --no-source-map --style compressed",
+    "style-light": "sass chronos/scss/style-light.scss chronos/css/style-light.css --no-source-map",
+    "style-light-min": "sass chronos/scss/style-light.scss chronos/css/style-light.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
