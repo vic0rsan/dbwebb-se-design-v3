@@ -46,7 +46,7 @@ body {
 
 .header,
 .main {
-    background-color: $background-color;
+    background-color: $background-color-light;
     padding: 0 6em;
 }
 
@@ -90,7 +90,7 @@ body {
 }
 
 .title * {
-    color: $font-color;
+    color: $font-light;
 }
 
 .title p {
@@ -104,15 +104,15 @@ body {
     justify-content: space-between;
     border-top: 1px solid #222;
     background: #707070;
-    color: $font-color;
+    color: $font-light;
 }
 
 .footer a {
-    color: $font-color;
+    color: $font-light;
 }
 
 .footer a:hover {
-    color: $font-color;
+    color: $font-light;
 }
 
 .footer .social {
@@ -124,7 +124,7 @@ body {
 body {
     font-family: sans-serif;
     line-height: 1.5rem;
-    color: $font-color;
+    color: $font-light;
 }
 
 p,
@@ -176,7 +176,7 @@ a {
 
 .nav a,
 .nav-toggle {
-    color: $font-color;
+    color: $font-light;
 }
 
 .nav .active a,
@@ -198,8 +198,4 @@ a {
 
 img {
     max-width: 100%;
-}
-
-.main {
-    background-color: yellow;
 }

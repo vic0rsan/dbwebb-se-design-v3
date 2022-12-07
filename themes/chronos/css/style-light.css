@@ -6627,7 +6627,7 @@ body {
 
 .header,
 .main {
-  background-color: #282828;
+  background-color: #e0fbfc;
   padding: 0 6em;
 }
 
@@ -6666,7 +6666,7 @@ body {
   }
 }
 .title * {
-  color: #eee;
+  color: #282828;
 }
 
 .title p {
@@ -6679,15 +6679,15 @@ body {
   justify-content: space-between;
   border-top: 1px solid #222;
   background: #707070;
-  color: #eee;
+  color: #282828;
 }
 
 .footer a {
-  color: #eee;
+  color: #282828;
 }
 
 .footer a:hover {
-  color: #eee;
+  color: #282828;
 }
 
 .footer .social {
@@ -6698,7 +6698,7 @@ body {
 body {
   font-family: sans-serif;
   line-height: 1.5rem;
-  color: #eee;
+  color: #282828;
 }
 
 p,
@@ -6750,7 +6750,7 @@ a {
 
 .nav a,
 .nav-toggle {
-  color: #eee;
+  color: #282828;
 }
 
 .nav .active a,
@@ -6771,8 +6771,4 @@ a {
 
 img {
   max-width: 100%;
-}
-
-.main {
-  background-color: yellow;
 }
