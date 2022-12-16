@@ -12,6 +12,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'mobile-menu';
 @import 'technologies';
 @import 'technology';
+@import 'gallery';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
@@ -47,7 +48,7 @@ body {
 .header,
 .main {
     background-color: $background-color-light;
-    padding: 0 6em;
+    padding: 0 8em;
 }
 
 .main {
@@ -198,7 +199,6 @@ p {
 .nav-toggle {
     display: none;
 }
-
 
 img {
     max-width: 100%;

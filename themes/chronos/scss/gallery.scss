@@ -1,0 +1,54 @@
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0.5em 1em;
+    margin-bottom: 4em;
+}
+
+.gallery-h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+@media (min-width: 771px) {
+    .g1 {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    
+    .g2 {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+    
+    .g3 {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    
+    .g4 {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    
+    .g5 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    
+    .g6 {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+
+    .g7 {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+}
+
+
+.gallery {
+    grid-template-columns: auto;
+}

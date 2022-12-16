@@ -15,23 +15,23 @@
 
 <h1>Twitter</h1>
 <p>Twitter fick bäst betyg av pagespeed.web bland urvalen men däremot finns det fortfarande några punkter att åtgärda för att optimera prestandan. Första punkten handlar om ett antal oanvända JavaScript rader som tar upp extra resurser från webbläsaren, vilket orsaker ett antal extra sekunder som sidan behövs för att laddas. Lösningen är att helt enkelt förenkla koden eller fördela den inom olika moduler som laddas vid behov/interaktion. Nästa punkt handlar om en felaktigt bruk av en unload lyssnar, vilket kan förhindra webbläsarens egna optimering med att rensa oanvänd cache inför nästa besöka av sidan. Det slutligta punkten som twitter kan förbättre är att minska antalet DOM-element som innäslande div:ar, för att förminska resursladdningen.</p>
-<img src="https://raw.githubusercontent.com/vic0rsan/dbwebb-se-design-v3/main/assets/img/twitter.png" alt="twitter" width="60%"/>
+<img src="%base_url%/assets/img/twitter.png" alt="twitter" width="60%"/>
 <br>
-<img src="https://raw.githubusercontent.com/vic0rsan/dbwebb-se-design-v3/main/assets/img/twitter_load.png" alt="twitter"/>
+<img src="%base_url%/assets/img/twitter_load.png" alt="twitter"/>
 <i>Resultat pagespeed.web.dev (desktop)</i>
 
 <h1>Reddit</h1>
 <p>Reddit fick sämst betyg bland urvalen där det störta problemet ligger kring prestandan. Det finns ett flertal punkter som pekar ut brister kring laddningen av media som bilder och videor. Den första och största åtgärden är att minska filstorlekarna på mediafiler genom kompremering som har en lätt belastning på resurser. Nästa förbättrings åtgärde är att reducera eller fördela JavaScript kod i separata moduler. Fonterna och övriga grafiskresurser bör även cache:as i en längre livslängd för att minska antalet omladdningar. Slutligen bör reddit applikationen minska antalet dom-element för att ytterligare minska trafiken och övriga resursförbrukningar.</p>
-<img src="https://raw.githubusercontent.com/vic0rsan/dbwebb-se-design-v3/main/assets/img/reddit.png" alt="reddit" width="60%"/>
+<img src="%base_url%/assets/img/reddit.png" alt="reddit" width="60%"/>
 <br>
-<img src="https://raw.githubusercontent.com/vic0rsan/dbwebb-se-design-v3/main/assets/img/reddit_load.png" alt="twitter"/>
+<img src="%base_url%/assets/img/reddit_load.png" alt="twitter"/>
 <i>Resultat pagespeed.web.dev (desktop)</i>
 
 <h1>Twitch</h1>
 <p>Twitch hamnade på en andraplats av urvalen. Twitch delar en del av problemen som Reddit har, vilket är en krävande resursförbrukning av form av media. Dock skiljer sig mediatypen där twitch har primärt live-videor vilket kan göra det svårt att komprimera i real-tid då även sändaren kan kontrollera kvaliten av videon inom bestämd gränns. Självaste nättrafiken är även mer ansträngande då klienterna kräver en direkt uppkoppling för att följa videoflödet i realtid och cacher endast i ett få interval av sekunder. Det som kunna förbättras är väl livslängden av cache:erna genom att det förlängd. Dock eftersom allt sker i realtid blir det svårt att göra större förändingar inom prestandan då det betydelsefulla förändringarna är på server-sidan.</p>
-<img src="https://raw.githubusercontent.com/vic0rsan/dbwebb-se-design-v3/main/assets/img/twitch.png" alt="twitch" width="60%"/>
+<img src="%base_url%/assets/img/twitch.png" alt="twitch" width="60%"/>
 <br>
-<img src="https://raw.githubusercontent.com/vic0rsan/dbwebb-se-design-v3/main/assets/img/twitch_load.png" alt="twitter"/>
+<img src="%base_url%/assets/img/twitch_load.png" alt="twitter"/>
 <i>Resultat pagespeed.web.dev (mobile)</i>
 
 <h2>Analys</h2>

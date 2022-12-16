@@ -22,7 +22,7 @@ Samtliga förstasidor kommer manuellt granskar via webbläsarens (Brave Browser)
 
 <div>
     <h1>Elgiganten</h1>
-    <img src="https://github.com/vic0rsan/dbwebb-se-design-v3/blob/main/assets/img/elgiganten.png?raw=true" alt="elgiganten" width="60%"/>
+    <img src="%base_url%/assets/img/elgiganten.png" alt="elgiganten" width="60%"/>
     <h3>Färgpallet:</h3>
     <table style="border-spacing: 4px; border-collapse: separate">
         <tr>
@@ -44,7 +44,7 @@ Samtliga förstasidor kommer manuellt granskar via webbläsarens (Brave Browser)
 
 <div>
     <h1>Netonnet</h1>
-    <img src="https://github.com/vic0rsan/dbwebb-se-design-v3/blob/main/assets/img/netonnet.png?raw=true" alt="netonnet" width="60%"/>
+    <img src="%base_url%/assets/img/netonnet.png" alt="netonnet" width="60%"/>
     <h3>Färgpallet:</h3>
     <table style="border-spacing: 4px; border-collapse: separate">
         <tr>
@@ -64,7 +64,7 @@ Samtliga förstasidor kommer manuellt granskar via webbläsarens (Brave Browser)
 
 <div>
     <h1>CDON</h1>
-    <img src="https://github.com/vic0rsan/dbwebb-se-design-v3/blob/main/assets/img/cdon.png?raw=true" alt="cdon" width="60%"/>
+    <img src="%base_url%/assets/img/cdon.png" alt="cdon" width="60%"/>
     <h3>Färgpallet:</h3>
     <table style="border-spacing: 4px; border-collapse: separate">
         <tr>
