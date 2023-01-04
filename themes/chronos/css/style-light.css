@@ -6520,10 +6520,11 @@ pre code {
   margin-bottom: 4em;
 }
 
-.landingpage h1 {
+.landingpage h2 {
   grid-column: span 3;
   justify-self: center;
   font-size: 30px;
+  margin: 1.5em 0;
 }
 
 .kmom-box {
@@ -6662,6 +6663,23 @@ pre code {
   grid-template-columns: auto;
 }
 
+.hoverwrap {
+  position: relative;
+  align-items: center;
+}
+
+.hovercap {
+  box-sizing: border-box;
+  padding: 1em;
+  width: 60%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 200%;
+  color: #fff;
+}
+
 * {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
@@ -6692,7 +6710,7 @@ body {
 
 .header,
 .main {
-  background-color: #e0fbfc;
+  background-color: #fff;
   padding: 0 8em;
 }
 
@@ -6731,7 +6749,7 @@ body {
   }
 }
 .title * {
-  color: #282828;
+  color: #000000;
 }
 
 .title p {
@@ -6744,15 +6762,15 @@ body {
   justify-content: space-between;
   border-top: 1px solid #222;
   background: #707070;
-  color: #282828;
+  color: #000000;
 }
 
 .footer a {
-  color: #282828;
+  color: #000000;
 }
 
 .footer a:hover {
-  color: #282828;
+  color: #000000;
 }
 
 .footer .social {
@@ -6763,7 +6781,7 @@ body {
 body {
   font-family: sans-serif;
   line-height: 1.5rem;
-  color: #282828;
+  color: #000000;
 }
 
 p,
@@ -6784,9 +6802,13 @@ h4,
 h5,
 h6 {
   font-family: "Roboto", sans-serif;
-  margin-bottom: 0.6em;
   font-weight: bold;
-  color: #ffa500;
+  color: rgb(255, 85, 0);
+}
+
+h1 {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid rgb(255, 85, 0);
 }
 
 a {
@@ -6796,7 +6818,7 @@ a {
 }
 
 p {
-  margin-bottom: 1em;
+  margin: 1.5em 0;
 }
 
 .nav {
@@ -6819,7 +6841,7 @@ p {
 
 .nav a,
 .nav-toggle {
-  color: #282828;
+  color: #000000;
 }
 
 .nav .active a,
@@ -6840,4 +6862,5 @@ p {
 
 img {
   max-width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px, rgba(0, 0, 0, 0.22) 0 15px 12px;
 }

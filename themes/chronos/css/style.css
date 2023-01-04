@@ -6520,10 +6520,11 @@ pre code {
   margin-bottom: 4em;
 }
 
-.landingpage h1 {
+.landingpage h2 {
   grid-column: span 3;
   justify-self: center;
   font-size: 30px;
+  margin: 1.5em 0;
 }
 
 .kmom-box {
@@ -6662,6 +6663,23 @@ pre code {
   grid-template-columns: auto;
 }
 
+.hoverwrap {
+  position: relative;
+  align-items: center;
+}
+
+.hovercap {
+  box-sizing: border-box;
+  padding: 1em;
+  width: 60%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 200%;
+  color: #fff;
+}
+
 * {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
@@ -6784,9 +6802,13 @@ h4,
 h5,
 h6 {
   font-family: "Roboto", sans-serif;
-  margin: 0.6em 0;
   font-weight: bold;
   color: #ffa500;
+}
+
+h1 {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #ffa500;
 }
 
 a {
@@ -6796,7 +6818,7 @@ a {
 }
 
 p {
-  margin-bottom: 1em;
+  margin: 1.5em 0;
 }
 
 .nav {
@@ -6840,4 +6862,5 @@ p {
 
 img {
   max-width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px, rgba(0, 0, 0, 0.22) 0 15px 12px;
 }

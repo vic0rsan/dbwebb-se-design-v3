@@ -4,8 +4,7 @@ Description: Teknologi sidan
 Template: technologies
 ---
 
-Teknologier
-==========================
+## Teknologier
 
 <div class="kmom-box css">
 <a href="%base_url%/technology/css">CSS</a>
