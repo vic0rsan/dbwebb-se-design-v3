@@ -6749,7 +6749,7 @@ body {
   }
 }
 .title * {
-  color: #000000;
+  color: #000;
 }
 
 .title p {
@@ -6762,15 +6762,15 @@ body {
   justify-content: space-between;
   border-top: 1px solid #222;
   background: #707070;
-  color: #000000;
+  color: #000;
 }
 
 .footer a {
-  color: #000000;
+  color: #000;
 }
 
 .footer a:hover {
-  color: #000000;
+  color: #000;
 }
 
 .footer .social {
@@ -6781,7 +6781,7 @@ body {
 body {
   font-family: sans-serif;
   line-height: 1.5rem;
-  color: #000000;
+  color: #000;
 }
 
 p,
@@ -6812,7 +6812,7 @@ h1 {
 }
 
 a {
-  color: #dc143c;
+  color: #ff1746;
   text-decoration: none;
   transition: color 0.2s ease-in;
 }
@@ -6841,18 +6841,18 @@ p {
 
 .nav a,
 .nav-toggle {
-  color: #000000;
+  color: #000;
 }
 
 .nav .active a,
 .nav a:hover,
 .nav-toggle:hover {
-  color: #32cd32;
+  color: #329532;
 }
 
 .nav a:hover,
 .nav-toggle:hover {
-  color: #32cd32;
+  color: #329532;
   text-decoration: underline;
 }
 
